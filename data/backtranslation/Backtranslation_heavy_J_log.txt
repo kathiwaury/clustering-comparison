@@ -1,0 +1,813 @@
+Epitope: 164069
+Gene mismatches: {9: ('S', 'T')}
+Mutation at position 9: ('S', 'T')
+Triplet in reference: TCC
+Potential triplets in antibody sequence: ['ACC'] with 1 mutation
+	Mutation likelihood 0.1363
+Cumulative likelihood: 0.1363
+Nucleotide mutation number: 1
+-------------------
+Epitope: 164069
+Gene mismatches: {9: ('S', 'T')}
+Mutation at position 9: ('S', 'T')
+Triplet in reference: TCC
+Potential triplets in antibody sequence: ['ACC'] with 1 mutation
+	Mutation likelihood 0.1363
+Cumulative likelihood: 0.1363
+Nucleotide mutation number: 1
+-------------------
+Epitope: 164069
+Gene mismatches: {9: ('S', 'T')}
+Mutation at position 9: ('S', 'T')
+Triplet in reference: TCC
+Potential triplets in antibody sequence: ['ACC'] with 1 mutation
+	Mutation likelihood 0.1363
+Cumulative likelihood: 0.1363
+Nucleotide mutation number: 1
+-------------------
+Epitope: 164067
+Gene mismatches: {}
+Epitope: 164067
+Gene mismatches: {}
+Epitope: 164067
+Gene mismatches: {}
+Epitope: 164078
+Gene mismatches: {}
+Epitope: 164078
+Gene mismatches: {}
+Epitope: 164078
+Gene mismatches: {}
+Epitope: 164079
+Gene mismatches: {}
+Epitope: 164079
+Gene mismatches: {}
+Epitope: 164079
+Gene mismatches: {}
+Epitope: 738088
+Gene mismatches: {}
+Epitope: 738088
+Gene mismatches: {}
+Epitope: 738088
+Gene mismatches: {}
+Epitope: 738089
+Gene mismatches: {}
+Epitope: 738089
+Gene mismatches: {}
+Epitope: 738089
+Gene mismatches: {}
+Epitope: 738090
+Gene mismatches: {}
+Epitope: 738090
+Gene mismatches: {}
+Epitope: 738090
+Gene mismatches: {}
+Epitope: 738086
+Gene mismatches: {}
+Epitope: 738087
+Gene mismatches: {}
+Epitope: 745538
+Gene mismatches: {}
+Epitope: 745538
+Gene mismatches: {}
+Epitope: 745538
+Gene mismatches: {}
+Epitope: 745539
+Gene mismatches: {9: ('S', 'F'), 10: ('S', 'N')}
+Mutation at position 9: ('S', 'F')
+Triplet in reference: TCC
+Potential triplets in antibody sequence: ['TTC'] with 1 mutation
+	Mutation likelihood 0.3947
+Mutation at position 10: ('S', 'N')
+Triplet in reference: TCA
+Potential triplets in antibody sequence: ['AAT', 'AAC'] with 3 mutation
+	Comparing mutation order substitution likelihood...
+		Comparing TCA and AAT
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.1244)
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.3814)
+			Likelihood of current mutation (position: 2, residue: T) is 0.2372 (Cumulative likelihood: 0.6186)
+		Current mutation order (0, 1, 2) with likelihood 0.6186
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.1244)
+			Likelihood of current mutation (position: 2, residue: T) is 0.2372 (Cumulative likelihood: 0.3615)
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.6186)
+		Current mutation order (0, 2, 1) with likelihood 0.6186
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.2571)
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.3814)
+			Likelihood of current mutation (position: 2, residue: T) is 0.2372 (Cumulative likelihood: 0.6186)
+		Current mutation order (1, 0, 2) with likelihood 0.6186
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.2571)
+			Likelihood of current mutation (position: 2, residue: T) is 0.2372 (Cumulative likelihood: 0.4943)
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.6186)
+		Current mutation order (1, 2, 0) with likelihood 0.6186
+			Likelihood of current mutation (position: 2, residue: T) is 0.2372 (Cumulative likelihood: 0.2372)
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.3615)
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.6186)
+		Current mutation order (2, 0, 1) with likelihood 0.6186
+			Likelihood of current mutation (position: 2, residue: T) is 0.2372 (Cumulative likelihood: 0.2372)
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.4943)
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.6186)
+		Current mutation order (2, 1, 0) with likelihood 0.6186
+		Highest triplet likelihood: 0.6186
+		Comparing TCA and AAC
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.1244)
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.3814)
+			Likelihood of current mutation (position: 2, residue: C) is 0.3190 (Cumulative likelihood: 0.7004)
+		Current mutation order (0, 1, 2) with likelihood 0.7004
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.1244)
+			Likelihood of current mutation (position: 2, residue: C) is 0.3190 (Cumulative likelihood: 0.4433)
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.7004)
+		Current mutation order (0, 2, 1) with likelihood 0.7004
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.2571)
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.3814)
+			Likelihood of current mutation (position: 2, residue: C) is 0.3190 (Cumulative likelihood: 0.7004)
+		Current mutation order (1, 0, 2) with likelihood 0.7004
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.2571)
+			Likelihood of current mutation (position: 2, residue: C) is 0.3190 (Cumulative likelihood: 0.5761)
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.7004)
+		Current mutation order (1, 2, 0) with likelihood 0.7004
+			Likelihood of current mutation (position: 2, residue: C) is 0.3190 (Cumulative likelihood: 0.3190)
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.4433)
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.7004)
+		Current mutation order (2, 0, 1) with likelihood 0.7004
+			Likelihood of current mutation (position: 2, residue: C) is 0.3190 (Cumulative likelihood: 0.3190)
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.5761)
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.7004)
+		Current mutation order (2, 1, 0) with likelihood 0.7004
+		Highest triplet likelihood: 0.7004
+	Most likely triplet is AAC with likelihood 0.7004
+Cumulative likelihood: 0.5476
+Nucleotide mutation number: 4
+-------------------
+Epitope: 745539
+Gene mismatches: {9: ('S', 'F'), 10: ('S', 'N')}
+Mutation at position 9: ('S', 'F')
+Triplet in reference: TCC
+Potential triplets in antibody sequence: ['TTC'] with 1 mutation
+	Mutation likelihood 0.3947
+Mutation at position 10: ('S', 'N')
+Triplet in reference: TCA
+Potential triplets in antibody sequence: ['AAT', 'AAC'] with 3 mutation
+	Comparing mutation order substitution likelihood...
+		Comparing TCA and AAT
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.1244)
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.3814)
+			Likelihood of current mutation (position: 2, residue: T) is 0.2372 (Cumulative likelihood: 0.6186)
+		Current mutation order (0, 1, 2) with likelihood 0.6186
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.1244)
+			Likelihood of current mutation (position: 2, residue: T) is 0.2372 (Cumulative likelihood: 0.3615)
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.6186)
+		Current mutation order (0, 2, 1) with likelihood 0.6186
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.2571)
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.3814)
+			Likelihood of current mutation (position: 2, residue: T) is 0.2372 (Cumulative likelihood: 0.6186)
+		Current mutation order (1, 0, 2) with likelihood 0.6186
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.2571)
+			Likelihood of current mutation (position: 2, residue: T) is 0.2372 (Cumulative likelihood: 0.4943)
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.6186)
+		Current mutation order (1, 2, 0) with likelihood 0.6186
+			Likelihood of current mutation (position: 2, residue: T) is 0.2372 (Cumulative likelihood: 0.2372)
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.3615)
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.6186)
+		Current mutation order (2, 0, 1) with likelihood 0.6186
+			Likelihood of current mutation (position: 2, residue: T) is 0.2372 (Cumulative likelihood: 0.2372)
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.4943)
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.6186)
+		Current mutation order (2, 1, 0) with likelihood 0.6186
+		Highest triplet likelihood: 0.6186
+		Comparing TCA and AAC
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.1244)
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.3814)
+			Likelihood of current mutation (position: 2, residue: C) is 0.3190 (Cumulative likelihood: 0.7004)
+		Current mutation order (0, 1, 2) with likelihood 0.7004
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.1244)
+			Likelihood of current mutation (position: 2, residue: C) is 0.3190 (Cumulative likelihood: 0.4433)
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.7004)
+		Current mutation order (0, 2, 1) with likelihood 0.7004
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.2571)
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.3814)
+			Likelihood of current mutation (position: 2, residue: C) is 0.3190 (Cumulative likelihood: 0.7004)
+		Current mutation order (1, 0, 2) with likelihood 0.7004
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.2571)
+			Likelihood of current mutation (position: 2, residue: C) is 0.3190 (Cumulative likelihood: 0.5761)
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.7004)
+		Current mutation order (1, 2, 0) with likelihood 0.7004
+			Likelihood of current mutation (position: 2, residue: C) is 0.3190 (Cumulative likelihood: 0.3190)
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.4433)
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.7004)
+		Current mutation order (2, 0, 1) with likelihood 0.7004
+			Likelihood of current mutation (position: 2, residue: C) is 0.3190 (Cumulative likelihood: 0.3190)
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.5761)
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.7004)
+		Current mutation order (2, 1, 0) with likelihood 0.7004
+		Highest triplet likelihood: 0.7004
+	Most likely triplet is AAC with likelihood 0.7004
+Cumulative likelihood: 0.5476
+Nucleotide mutation number: 4
+-------------------
+Epitope: 745539
+Gene mismatches: {9: ('S', 'F'), 10: ('S', 'N')}
+Mutation at position 9: ('S', 'F')
+Triplet in reference: TCC
+Potential triplets in antibody sequence: ['TTC'] with 1 mutation
+	Mutation likelihood 0.3947
+Mutation at position 10: ('S', 'N')
+Triplet in reference: TCA
+Potential triplets in antibody sequence: ['AAT', 'AAC'] with 3 mutation
+	Comparing mutation order substitution likelihood...
+		Comparing TCA and AAT
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.1244)
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.3814)
+			Likelihood of current mutation (position: 2, residue: T) is 0.2372 (Cumulative likelihood: 0.6186)
+		Current mutation order (0, 1, 2) with likelihood 0.6186
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.1244)
+			Likelihood of current mutation (position: 2, residue: T) is 0.2372 (Cumulative likelihood: 0.3615)
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.6186)
+		Current mutation order (0, 2, 1) with likelihood 0.6186
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.2571)
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.3814)
+			Likelihood of current mutation (position: 2, residue: T) is 0.2372 (Cumulative likelihood: 0.6186)
+		Current mutation order (1, 0, 2) with likelihood 0.6186
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.2571)
+			Likelihood of current mutation (position: 2, residue: T) is 0.2372 (Cumulative likelihood: 0.4943)
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.6186)
+		Current mutation order (1, 2, 0) with likelihood 0.6186
+			Likelihood of current mutation (position: 2, residue: T) is 0.2372 (Cumulative likelihood: 0.2372)
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.3615)
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.6186)
+		Current mutation order (2, 0, 1) with likelihood 0.6186
+			Likelihood of current mutation (position: 2, residue: T) is 0.2372 (Cumulative likelihood: 0.2372)
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.4943)
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.6186)
+		Current mutation order (2, 1, 0) with likelihood 0.6186
+		Highest triplet likelihood: 0.6186
+		Comparing TCA and AAC
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.1244)
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.3814)
+			Likelihood of current mutation (position: 2, residue: C) is 0.3190 (Cumulative likelihood: 0.7004)
+		Current mutation order (0, 1, 2) with likelihood 0.7004
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.1244)
+			Likelihood of current mutation (position: 2, residue: C) is 0.3190 (Cumulative likelihood: 0.4433)
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.7004)
+		Current mutation order (0, 2, 1) with likelihood 0.7004
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.2571)
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.3814)
+			Likelihood of current mutation (position: 2, residue: C) is 0.3190 (Cumulative likelihood: 0.7004)
+		Current mutation order (1, 0, 2) with likelihood 0.7004
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.2571)
+			Likelihood of current mutation (position: 2, residue: C) is 0.3190 (Cumulative likelihood: 0.5761)
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.7004)
+		Current mutation order (1, 2, 0) with likelihood 0.7004
+			Likelihood of current mutation (position: 2, residue: C) is 0.3190 (Cumulative likelihood: 0.3190)
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.4433)
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.7004)
+		Current mutation order (2, 0, 1) with likelihood 0.7004
+			Likelihood of current mutation (position: 2, residue: C) is 0.3190 (Cumulative likelihood: 0.3190)
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.5761)
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.7004)
+		Current mutation order (2, 1, 0) with likelihood 0.7004
+		Highest triplet likelihood: 0.7004
+	Most likely triplet is AAC with likelihood 0.7004
+Cumulative likelihood: 0.5476
+Nucleotide mutation number: 4
+-------------------
+Epitope: 745536
+Gene mismatches: {9: ('S', 'V')}
+Mutation at position 9: ('S', 'V')
+Triplet in reference: TCC
+Potential triplets in antibody sequence: ['GTC'] with 2 mutation
+	Comparing mutation order substitution likelihood...
+			Likelihood of current mutation (position: 0, residue: G) is 0.2816 (Cumulative likelihood: 0.2816)
+			Likelihood of current mutation (position: 1, residue: T) is 0.3947 (Cumulative likelihood: 0.6763)
+		Current mutation order (0, 1) with likelihood 0.6763
+			Likelihood of current mutation (position: 1, residue: T) is 0.3947 (Cumulative likelihood: 0.3947)
+			Likelihood of current mutation (position: 0, residue: G) is 0.2816 (Cumulative likelihood: 0.6763)
+		Current mutation order (1, 0) with likelihood 0.6763
+		Highest triplet likelihood: 0.6763
+	Mutation likelihood 0.6763
+Cumulative likelihood: 0.6763
+Nucleotide mutation number: 2
+-------------------
+Epitope: 745536
+Gene mismatches: {9: ('S', 'V')}
+Mutation at position 9: ('S', 'V')
+Triplet in reference: TCC
+Potential triplets in antibody sequence: ['GTC'] with 2 mutation
+	Comparing mutation order substitution likelihood...
+			Likelihood of current mutation (position: 0, residue: G) is 0.2816 (Cumulative likelihood: 0.2816)
+			Likelihood of current mutation (position: 1, residue: T) is 0.3947 (Cumulative likelihood: 0.6763)
+		Current mutation order (0, 1) with likelihood 0.6763
+			Likelihood of current mutation (position: 1, residue: T) is 0.3947 (Cumulative likelihood: 0.3947)
+			Likelihood of current mutation (position: 0, residue: G) is 0.2816 (Cumulative likelihood: 0.6763)
+		Current mutation order (1, 0) with likelihood 0.6763
+		Highest triplet likelihood: 0.6763
+	Mutation likelihood 0.6763
+Cumulative likelihood: 0.6763
+Nucleotide mutation number: 2
+-------------------
+Epitope: 745536
+Gene mismatches: {9: ('S', 'V')}
+Mutation at position 9: ('S', 'V')
+Triplet in reference: TCC
+Potential triplets in antibody sequence: ['GTC'] with 2 mutation
+	Comparing mutation order substitution likelihood...
+			Likelihood of current mutation (position: 0, residue: G) is 0.2816 (Cumulative likelihood: 0.2816)
+			Likelihood of current mutation (position: 1, residue: T) is 0.3947 (Cumulative likelihood: 0.6763)
+		Current mutation order (0, 1) with likelihood 0.6763
+			Likelihood of current mutation (position: 1, residue: T) is 0.3947 (Cumulative likelihood: 0.3947)
+			Likelihood of current mutation (position: 0, residue: G) is 0.2816 (Cumulative likelihood: 0.6763)
+		Current mutation order (1, 0) with likelihood 0.6763
+		Highest triplet likelihood: 0.6763
+	Mutation likelihood 0.6763
+Cumulative likelihood: 0.6763
+Nucleotide mutation number: 2
+-------------------
+Epitope: 745537
+Gene mismatches: {9: ('S', 'F'), 10: ('S', 'N')}
+Mutation at position 9: ('S', 'F')
+Triplet in reference: TCC
+Potential triplets in antibody sequence: ['TTC'] with 1 mutation
+	Mutation likelihood 0.3947
+Mutation at position 10: ('S', 'N')
+Triplet in reference: TCA
+Potential triplets in antibody sequence: ['AAT', 'AAC'] with 3 mutation
+	Comparing mutation order substitution likelihood...
+		Comparing TCA and AAT
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.1244)
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.3814)
+			Likelihood of current mutation (position: 2, residue: T) is 0.2372 (Cumulative likelihood: 0.6186)
+		Current mutation order (0, 1, 2) with likelihood 0.6186
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.1244)
+			Likelihood of current mutation (position: 2, residue: T) is 0.2372 (Cumulative likelihood: 0.3615)
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.6186)
+		Current mutation order (0, 2, 1) with likelihood 0.6186
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.2571)
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.3814)
+			Likelihood of current mutation (position: 2, residue: T) is 0.2372 (Cumulative likelihood: 0.6186)
+		Current mutation order (1, 0, 2) with likelihood 0.6186
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.2571)
+			Likelihood of current mutation (position: 2, residue: T) is 0.2372 (Cumulative likelihood: 0.4943)
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.6186)
+		Current mutation order (1, 2, 0) with likelihood 0.6186
+			Likelihood of current mutation (position: 2, residue: T) is 0.2372 (Cumulative likelihood: 0.2372)
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.3615)
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.6186)
+		Current mutation order (2, 0, 1) with likelihood 0.6186
+			Likelihood of current mutation (position: 2, residue: T) is 0.2372 (Cumulative likelihood: 0.2372)
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.4943)
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.6186)
+		Current mutation order (2, 1, 0) with likelihood 0.6186
+		Highest triplet likelihood: 0.6186
+		Comparing TCA and AAC
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.1244)
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.3814)
+			Likelihood of current mutation (position: 2, residue: C) is 0.3190 (Cumulative likelihood: 0.7004)
+		Current mutation order (0, 1, 2) with likelihood 0.7004
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.1244)
+			Likelihood of current mutation (position: 2, residue: C) is 0.3190 (Cumulative likelihood: 0.4433)
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.7004)
+		Current mutation order (0, 2, 1) with likelihood 0.7004
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.2571)
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.3814)
+			Likelihood of current mutation (position: 2, residue: C) is 0.3190 (Cumulative likelihood: 0.7004)
+		Current mutation order (1, 0, 2) with likelihood 0.7004
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.2571)
+			Likelihood of current mutation (position: 2, residue: C) is 0.3190 (Cumulative likelihood: 0.5761)
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.7004)
+		Current mutation order (1, 2, 0) with likelihood 0.7004
+			Likelihood of current mutation (position: 2, residue: C) is 0.3190 (Cumulative likelihood: 0.3190)
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.4433)
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.7004)
+		Current mutation order (2, 0, 1) with likelihood 0.7004
+			Likelihood of current mutation (position: 2, residue: C) is 0.3190 (Cumulative likelihood: 0.3190)
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.5761)
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.7004)
+		Current mutation order (2, 1, 0) with likelihood 0.7004
+		Highest triplet likelihood: 0.7004
+	Most likely triplet is AAC with likelihood 0.7004
+Cumulative likelihood: 0.5476
+Nucleotide mutation number: 4
+-------------------
+Epitope: 745537
+Gene mismatches: {9: ('S', 'F'), 10: ('S', 'N')}
+Mutation at position 9: ('S', 'F')
+Triplet in reference: TCC
+Potential triplets in antibody sequence: ['TTC'] with 1 mutation
+	Mutation likelihood 0.3947
+Mutation at position 10: ('S', 'N')
+Triplet in reference: TCA
+Potential triplets in antibody sequence: ['AAT', 'AAC'] with 3 mutation
+	Comparing mutation order substitution likelihood...
+		Comparing TCA and AAT
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.1244)
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.3814)
+			Likelihood of current mutation (position: 2, residue: T) is 0.2372 (Cumulative likelihood: 0.6186)
+		Current mutation order (0, 1, 2) with likelihood 0.6186
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.1244)
+			Likelihood of current mutation (position: 2, residue: T) is 0.2372 (Cumulative likelihood: 0.3615)
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.6186)
+		Current mutation order (0, 2, 1) with likelihood 0.6186
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.2571)
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.3814)
+			Likelihood of current mutation (position: 2, residue: T) is 0.2372 (Cumulative likelihood: 0.6186)
+		Current mutation order (1, 0, 2) with likelihood 0.6186
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.2571)
+			Likelihood of current mutation (position: 2, residue: T) is 0.2372 (Cumulative likelihood: 0.4943)
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.6186)
+		Current mutation order (1, 2, 0) with likelihood 0.6186
+			Likelihood of current mutation (position: 2, residue: T) is 0.2372 (Cumulative likelihood: 0.2372)
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.3615)
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.6186)
+		Current mutation order (2, 0, 1) with likelihood 0.6186
+			Likelihood of current mutation (position: 2, residue: T) is 0.2372 (Cumulative likelihood: 0.2372)
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.4943)
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.6186)
+		Current mutation order (2, 1, 0) with likelihood 0.6186
+		Highest triplet likelihood: 0.6186
+		Comparing TCA and AAC
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.1244)
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.3814)
+			Likelihood of current mutation (position: 2, residue: C) is 0.3190 (Cumulative likelihood: 0.7004)
+		Current mutation order (0, 1, 2) with likelihood 0.7004
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.1244)
+			Likelihood of current mutation (position: 2, residue: C) is 0.3190 (Cumulative likelihood: 0.4433)
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.7004)
+		Current mutation order (0, 2, 1) with likelihood 0.7004
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.2571)
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.3814)
+			Likelihood of current mutation (position: 2, residue: C) is 0.3190 (Cumulative likelihood: 0.7004)
+		Current mutation order (1, 0, 2) with likelihood 0.7004
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.2571)
+			Likelihood of current mutation (position: 2, residue: C) is 0.3190 (Cumulative likelihood: 0.5761)
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.7004)
+		Current mutation order (1, 2, 0) with likelihood 0.7004
+			Likelihood of current mutation (position: 2, residue: C) is 0.3190 (Cumulative likelihood: 0.3190)
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.4433)
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.7004)
+		Current mutation order (2, 0, 1) with likelihood 0.7004
+			Likelihood of current mutation (position: 2, residue: C) is 0.3190 (Cumulative likelihood: 0.3190)
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.5761)
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.7004)
+		Current mutation order (2, 1, 0) with likelihood 0.7004
+		Highest triplet likelihood: 0.7004
+	Most likely triplet is AAC with likelihood 0.7004
+Cumulative likelihood: 0.5476
+Nucleotide mutation number: 4
+-------------------
+Epitope: 745537
+Gene mismatches: {9: ('S', 'F'), 10: ('S', 'N')}
+Mutation at position 9: ('S', 'F')
+Triplet in reference: TCC
+Potential triplets in antibody sequence: ['TTC'] with 1 mutation
+	Mutation likelihood 0.3947
+Mutation at position 10: ('S', 'N')
+Triplet in reference: TCA
+Potential triplets in antibody sequence: ['AAT', 'AAC'] with 3 mutation
+	Comparing mutation order substitution likelihood...
+		Comparing TCA and AAT
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.1244)
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.3814)
+			Likelihood of current mutation (position: 2, residue: T) is 0.2372 (Cumulative likelihood: 0.6186)
+		Current mutation order (0, 1, 2) with likelihood 0.6186
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.1244)
+			Likelihood of current mutation (position: 2, residue: T) is 0.2372 (Cumulative likelihood: 0.3615)
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.6186)
+		Current mutation order (0, 2, 1) with likelihood 0.6186
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.2571)
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.3814)
+			Likelihood of current mutation (position: 2, residue: T) is 0.2372 (Cumulative likelihood: 0.6186)
+		Current mutation order (1, 0, 2) with likelihood 0.6186
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.2571)
+			Likelihood of current mutation (position: 2, residue: T) is 0.2372 (Cumulative likelihood: 0.4943)
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.6186)
+		Current mutation order (1, 2, 0) with likelihood 0.6186
+			Likelihood of current mutation (position: 2, residue: T) is 0.2372 (Cumulative likelihood: 0.2372)
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.3615)
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.6186)
+		Current mutation order (2, 0, 1) with likelihood 0.6186
+			Likelihood of current mutation (position: 2, residue: T) is 0.2372 (Cumulative likelihood: 0.2372)
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.4943)
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.6186)
+		Current mutation order (2, 1, 0) with likelihood 0.6186
+		Highest triplet likelihood: 0.6186
+		Comparing TCA and AAC
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.1244)
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.3814)
+			Likelihood of current mutation (position: 2, residue: C) is 0.3190 (Cumulative likelihood: 0.7004)
+		Current mutation order (0, 1, 2) with likelihood 0.7004
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.1244)
+			Likelihood of current mutation (position: 2, residue: C) is 0.3190 (Cumulative likelihood: 0.4433)
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.7004)
+		Current mutation order (0, 2, 1) with likelihood 0.7004
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.2571)
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.3814)
+			Likelihood of current mutation (position: 2, residue: C) is 0.3190 (Cumulative likelihood: 0.7004)
+		Current mutation order (1, 0, 2) with likelihood 0.7004
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.2571)
+			Likelihood of current mutation (position: 2, residue: C) is 0.3190 (Cumulative likelihood: 0.5761)
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.7004)
+		Current mutation order (1, 2, 0) with likelihood 0.7004
+			Likelihood of current mutation (position: 2, residue: C) is 0.3190 (Cumulative likelihood: 0.3190)
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.4433)
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.7004)
+		Current mutation order (2, 0, 1) with likelihood 0.7004
+			Likelihood of current mutation (position: 2, residue: C) is 0.3190 (Cumulative likelihood: 0.3190)
+			Likelihood of current mutation (position: 1, residue: A) is 0.2571 (Cumulative likelihood: 0.5761)
+			Likelihood of current mutation (position: 0, residue: A) is 0.1244 (Cumulative likelihood: 0.7004)
+		Current mutation order (2, 1, 0) with likelihood 0.7004
+		Highest triplet likelihood: 0.7004
+	Most likely triplet is AAC with likelihood 0.7004
+Cumulative likelihood: 0.5476
+Nucleotide mutation number: 4
+-------------------
+Epitope: 969167
+Gene mismatches: {10: ('S', 'G')}
+Mutation at position 10: ('S', 'G')
+Triplet in reference: TCA
+Potential triplets in antibody sequence: ['GGA'] with 2 mutation
+	Comparing mutation order substitution likelihood...
+			Likelihood of current mutation (position: 0, residue: G) is 0.3372 (Cumulative likelihood: 0.3372)
+			Likelihood of current mutation (position: 1, residue: G) is 0.3611 (Cumulative likelihood: 0.6984)
+		Current mutation order (0, 1) with likelihood 0.6984
+			Likelihood of current mutation (position: 1, residue: G) is 0.3611 (Cumulative likelihood: 0.3611)
+			Likelihood of current mutation (position: 0, residue: G) is 0.3372 (Cumulative likelihood: 0.6984)
+		Current mutation order (1, 0) with likelihood 0.6984
+		Highest triplet likelihood: 0.6984
+	Mutation likelihood 0.6984
+Cumulative likelihood: 0.6984
+Nucleotide mutation number: 2
+-------------------
+Epitope: 969166
+Gene mismatches: {10: ('S', 'G')}
+Mutation at position 10: ('S', 'G')
+Triplet in reference: TCA
+Potential triplets in antibody sequence: ['GGA'] with 2 mutation
+	Comparing mutation order substitution likelihood...
+			Likelihood of current mutation (position: 0, residue: G) is 0.3372 (Cumulative likelihood: 0.3372)
+			Likelihood of current mutation (position: 1, residue: G) is 0.3611 (Cumulative likelihood: 0.6984)
+		Current mutation order (0, 1) with likelihood 0.6984
+			Likelihood of current mutation (position: 1, residue: G) is 0.3611 (Cumulative likelihood: 0.3611)
+			Likelihood of current mutation (position: 0, residue: G) is 0.3372 (Cumulative likelihood: 0.6984)
+		Current mutation order (1, 0) with likelihood 0.6984
+		Highest triplet likelihood: 0.6984
+	Mutation likelihood 0.6984
+Cumulative likelihood: 0.6984
+Nucleotide mutation number: 2
+-------------------
+Epitope: 969168
+Gene mismatches: {10: ('S', 'G')}
+Mutation at position 10: ('S', 'G')
+Triplet in reference: TCA
+Potential triplets in antibody sequence: ['GGA'] with 2 mutation
+	Comparing mutation order substitution likelihood...
+			Likelihood of current mutation (position: 0, residue: G) is 0.3372 (Cumulative likelihood: 0.3372)
+			Likelihood of current mutation (position: 1, residue: G) is 0.3611 (Cumulative likelihood: 0.6984)
+		Current mutation order (0, 1) with likelihood 0.6984
+			Likelihood of current mutation (position: 1, residue: G) is 0.3611 (Cumulative likelihood: 0.3611)
+			Likelihood of current mutation (position: 0, residue: G) is 0.3372 (Cumulative likelihood: 0.6984)
+		Current mutation order (1, 0) with likelihood 0.6984
+		Highest triplet likelihood: 0.6984
+	Mutation likelihood 0.6984
+Cumulative likelihood: 0.6984
+Nucleotide mutation number: 2
+-------------------
+Epitope: 1075136
+Gene mismatches: {}
+Epitope: 1083498
+Gene mismatches: {}
+Epitope: 1083498
+Gene mismatches: {}
+Epitope: 1083498
+Gene mismatches: {}
+Epitope: 1087266
+Gene mismatches: {}
+Epitope: 1087267
+Gene mismatches: {}
+Epitope: 1087267
+Gene mismatches: {}
+Epitope: 1087267
+Gene mismatches: {}
+Epitope: 1310038
+Gene mismatches: {}
+Epitope: 1311247
+Gene mismatches: {}
+Epitope: 1311248
+Gene mismatches: {}
+Epitope: 1311246
+Gene mismatches: {}
+Epitope: 1311246
+Gene mismatches: {}
+Epitope: 1311246
+Gene mismatches: {}
+Epitope: 1314088
+Gene mismatches: {}
+Epitope: 1314088
+Gene mismatches: {}
+Epitope: 1314088
+Gene mismatches: {}
+Epitope: 1334440
+Gene mismatches: {}
+Epitope: 1338222
+Gene mismatches: {}
+Epitope: 1338222
+Gene mismatches: {}
+Epitope: 1338222
+Gene mismatches: {}
+Epitope: 1338212
+Gene mismatches: {}
+Epitope: 1338212
+Gene mismatches: {}
+Epitope: 1338212
+Gene mismatches: {}
+Epitope: 1338213
+Gene mismatches: {}
+Epitope: 1338213
+Gene mismatches: {}
+Epitope: 1338213
+Gene mismatches: {}
+Epitope: 1335959
+Gene mismatches: {10: ('S', 'G')}
+Mutation at position 10: ('S', 'G')
+Triplet in reference: TCA
+Potential triplets in antibody sequence: ['GGA'] with 2 mutation
+	Comparing mutation order substitution likelihood...
+			Likelihood of current mutation (position: 0, residue: G) is 0.3372 (Cumulative likelihood: 0.3372)
+			Likelihood of current mutation (position: 1, residue: G) is 0.3611 (Cumulative likelihood: 0.6984)
+		Current mutation order (0, 1) with likelihood 0.6984
+			Likelihood of current mutation (position: 1, residue: G) is 0.3611 (Cumulative likelihood: 0.3611)
+			Likelihood of current mutation (position: 0, residue: G) is 0.3372 (Cumulative likelihood: 0.6984)
+		Current mutation order (1, 0) with likelihood 0.6984
+		Highest triplet likelihood: 0.6984
+	Mutation likelihood 0.6984
+Cumulative likelihood: 0.6984
+Nucleotide mutation number: 2
+-------------------
+Epitope: 1335959
+Gene mismatches: {10: ('S', 'G')}
+Mutation at position 10: ('S', 'G')
+Triplet in reference: TCA
+Potential triplets in antibody sequence: ['GGA'] with 2 mutation
+	Comparing mutation order substitution likelihood...
+			Likelihood of current mutation (position: 0, residue: G) is 0.3372 (Cumulative likelihood: 0.3372)
+			Likelihood of current mutation (position: 1, residue: G) is 0.3611 (Cumulative likelihood: 0.6984)
+		Current mutation order (0, 1) with likelihood 0.6984
+			Likelihood of current mutation (position: 1, residue: G) is 0.3611 (Cumulative likelihood: 0.3611)
+			Likelihood of current mutation (position: 0, residue: G) is 0.3372 (Cumulative likelihood: 0.6984)
+		Current mutation order (1, 0) with likelihood 0.6984
+		Highest triplet likelihood: 0.6984
+	Mutation likelihood 0.6984
+Cumulative likelihood: 0.6984
+Nucleotide mutation number: 2
+-------------------
+Epitope: 1335959
+Gene mismatches: {10: ('S', 'G')}
+Mutation at position 10: ('S', 'G')
+Triplet in reference: TCA
+Potential triplets in antibody sequence: ['GGA'] with 2 mutation
+	Comparing mutation order substitution likelihood...
+			Likelihood of current mutation (position: 0, residue: G) is 0.3372 (Cumulative likelihood: 0.3372)
+			Likelihood of current mutation (position: 1, residue: G) is 0.3611 (Cumulative likelihood: 0.6984)
+		Current mutation order (0, 1) with likelihood 0.6984
+			Likelihood of current mutation (position: 1, residue: G) is 0.3611 (Cumulative likelihood: 0.3611)
+			Likelihood of current mutation (position: 0, residue: G) is 0.3372 (Cumulative likelihood: 0.6984)
+		Current mutation order (1, 0) with likelihood 0.6984
+		Highest triplet likelihood: 0.6984
+	Mutation likelihood 0.6984
+Cumulative likelihood: 0.6984
+Nucleotide mutation number: 2
+-------------------
+Epitope: 1335960
+Gene mismatches: {10: ('S', 'G')}
+Mutation at position 10: ('S', 'G')
+Triplet in reference: TCA
+Potential triplets in antibody sequence: ['GGA'] with 2 mutation
+	Comparing mutation order substitution likelihood...
+			Likelihood of current mutation (position: 0, residue: G) is 0.3372 (Cumulative likelihood: 0.3372)
+			Likelihood of current mutation (position: 1, residue: G) is 0.3611 (Cumulative likelihood: 0.6984)
+		Current mutation order (0, 1) with likelihood 0.6984
+			Likelihood of current mutation (position: 1, residue: G) is 0.3611 (Cumulative likelihood: 0.3611)
+			Likelihood of current mutation (position: 0, residue: G) is 0.3372 (Cumulative likelihood: 0.6984)
+		Current mutation order (1, 0) with likelihood 0.6984
+		Highest triplet likelihood: 0.6984
+	Mutation likelihood 0.6984
+Cumulative likelihood: 0.6984
+Nucleotide mutation number: 2
+-------------------
+Epitope: 1335960
+Gene mismatches: {10: ('S', 'G')}
+Mutation at position 10: ('S', 'G')
+Triplet in reference: TCA
+Potential triplets in antibody sequence: ['GGA'] with 2 mutation
+	Comparing mutation order substitution likelihood...
+			Likelihood of current mutation (position: 0, residue: G) is 0.3372 (Cumulative likelihood: 0.3372)
+			Likelihood of current mutation (position: 1, residue: G) is 0.3611 (Cumulative likelihood: 0.6984)
+		Current mutation order (0, 1) with likelihood 0.6984
+			Likelihood of current mutation (position: 1, residue: G) is 0.3611 (Cumulative likelihood: 0.3611)
+			Likelihood of current mutation (position: 0, residue: G) is 0.3372 (Cumulative likelihood: 0.6984)
+		Current mutation order (1, 0) with likelihood 0.6984
+		Highest triplet likelihood: 0.6984
+	Mutation likelihood 0.6984
+Cumulative likelihood: 0.6984
+Nucleotide mutation number: 2
+-------------------
+Epitope: 1335960
+Gene mismatches: {10: ('S', 'G')}
+Mutation at position 10: ('S', 'G')
+Triplet in reference: TCA
+Potential triplets in antibody sequence: ['GGA'] with 2 mutation
+	Comparing mutation order substitution likelihood...
+			Likelihood of current mutation (position: 0, residue: G) is 0.3372 (Cumulative likelihood: 0.3372)
+			Likelihood of current mutation (position: 1, residue: G) is 0.3611 (Cumulative likelihood: 0.6984)
+		Current mutation order (0, 1) with likelihood 0.6984
+			Likelihood of current mutation (position: 1, residue: G) is 0.3611 (Cumulative likelihood: 0.3611)
+			Likelihood of current mutation (position: 0, residue: G) is 0.3372 (Cumulative likelihood: 0.6984)
+		Current mutation order (1, 0) with likelihood 0.6984
+		Highest triplet likelihood: 0.6984
+	Mutation likelihood 0.6984
+Cumulative likelihood: 0.6984
+Nucleotide mutation number: 2
+-------------------
+Epitope: 1335409
+Gene mismatches: {}
+Epitope: 1335409
+Gene mismatches: {}
+Epitope: 1335409
+Gene mismatches: {}
+Epitope: 1346822
+Gene mismatches: {}
+Epitope: 1346821
+Gene mismatches: {}
+Epitope: 1346823
+Gene mismatches: {}
+Epitope: 1347915
+Gene mismatches: {}
+Epitope: 1347915
+Gene mismatches: {}
+Epitope: 1347915
+Gene mismatches: {}
+Epitope: 1392553
+Gene mismatches: {}
+Epitope: 1392553
+Gene mismatches: {}
+Epitope: 1392553
+Gene mismatches: {}
+Epitope: 1397524
+Gene mismatches: {}
+Epitope: 1397527
+Gene mismatches: {}
+Epitope: 1397527
+Gene mismatches: {}
+Epitope: 1397527
+Gene mismatches: {}
+Epitope: 1597632
+Gene mismatches: {}
+Epitope: 2134982
+Gene mismatches: {}
+Epitope: 2134982
+Gene mismatches: {}
+Epitope: 2134982
+Gene mismatches: {}
+Epitope: 2134977
+Gene mismatches: {}
+Epitope: 2134997
+Gene mismatches: {}
+Epitope: 2134973
+Gene mismatches: {}
+Epitope: 2134978
+Gene mismatches: {}
+Epitope: 2060661
+Gene mismatches: {}
+Epitope: 2060661
+Gene mismatches: {}
+Epitope: 2060661
+Gene mismatches: {}
+Epitope: 2060664
+Gene mismatches: {}
+Epitope: 2060664
+Gene mismatches: {}
+Epitope: 2060664
+Gene mismatches: {}
+Epitope: 2135057
+Gene mismatches: {}
+Epitope: 2135060
+Gene mismatches: {}
+Epitope: 2135060
+Gene mismatches: {}
+Epitope: 2135060
+Gene mismatches: {}
+Epitope: 2144729
+Gene mismatches: {}
+Epitope: 2186582
+Gene mismatches: {}
+Epitope: 2186582
+Gene mismatches: {}
+Epitope: 2186582
+Gene mismatches: {}
+Epitope: 2217933
+Gene mismatches: {}
+Epitope: 2218457
+Gene mismatches: {}
+Epitope: 2218456
+Gene mismatches: {}
+Epitope: 2218456
+Gene mismatches: {}
+Epitope: 2218456
+Gene mismatches: {}
