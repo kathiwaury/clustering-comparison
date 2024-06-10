@@ -103,16 +103,16 @@ def calculate_average_epitope_size(df):
     return (df["Length_A"] + df["Length_B"]) / 2
 
 
-def calculate_average_random_clustering_rate(cluster_sizes, clones, ab_pairs, n=1000):
+def calculate_average_random_clustering_rate(cluster_sizes, antibodies, ab_pairs, n=1000):
     
-    assert sum(cluster_sizes) == len(clones), "The sum of the cluster sizes must match the number of clones"
+    assert sum(cluster_sizes) == len(antibodies), "The sum of the cluster sizes must match the number of antibodies"
     
     clustering_rate_list = []
     clustered_count_list = []
     
     for i in range(n):
         
-        random_clusters = perform_random_clustering(cluster_sizes, clones)
+        random_clusters = perform_random_clustering(cluster_sizes, antibodies)
         
         clustered_count, clustering_rate = calculate_random_clustering_rate(random_clusters, ab_pairs)
     
@@ -161,7 +161,7 @@ def calculate_random_clustering_rate(random_clusters, ab_pairs):
     for i, row in ab_pairs.iterrows():
         
 
-        if check_if_clones_are_in_same_cluster(row["Clone_ID_A"], row["Clone_ID_B"], random_clusters):
+        if check_if_antibodies_are_in_same_cluster(row["Clone_ID_A"], row["Clone_ID_B"], random_clusters):
             clustered_count += 1
     
     clustering_rate = clustered_count / len(ab_pairs)
@@ -218,14 +218,14 @@ def calculate_upper_bound_estimate_of_corrected_SHM(row):
     return row
 
         
-def check_for_wrong_pairs_in_clusters(clone_list, epitope_clone_mapping, cluster_dict): 
+def check_for_wrong_pairs_in_clusters(antibody_list, epitope_clone_mapping, cluster_dict): 
         
     # generate all combinations of antibodies in the cluster
-    clone_combinations = list(itertools.combinations(clone_list, 2))
+    antibody_combinations = list(itertools.combinations(antibody_list, 2))
     false_positive_pairs = [] 
     
-    # check if both clones are part of the antibody pair dataset
-    for comb in clone_combinations:
+    # check if both antibodies are part of the antibody pair dataset
+    for comb in antibody_combinations:
         if (epitope_clone_mapping["Clone_ID"].str.contains(comb[0]).any()) & \
             (epitope_clone_mapping["Clone_ID"].str.contains(comb[1]).any()):
             
@@ -241,9 +241,9 @@ def check_for_wrong_pairs_in_clusters(clone_list, epitope_clone_mapping, cluster
     return false_positive_pairs
 
 
-def check_if_clones_are_in_same_cluster(clone_A, clone_B, random_clusters):
+def check_if_antibodies_are_in_same_cluster(antibody_A, antibody_B, random_clusters):
     
-    clustered = any((clone_A in cluster) and (clone_B in cluster) for cluster in random_clusters)
+    clustered = any((antibody_A in cluster) and (antibody_B in cluster) for cluster in random_clusters)
     
     return clustered
 
@@ -305,17 +305,17 @@ def create_immune_builder_dataframe(df):
 
     for i in df["Unique Clone Id"].unique():
 
-        current_clone = df[df["Unique Clone Id"] == i]
+        current_antibody = df[df["Unique Clone Id"] == i]
 
         # check that both heavy and light chain are present
         chains = df[df["Unique Clone Id"] == i]["Chain"].unique()
         if (sorted(chains) == ["Heavy", "Kappa"]) | (sorted(chains) == ["Heavy", "Lambda"]) == False:
-            print("Could not find both heavy and light chain for the clone. Skipping %s" %i)
+            print("Could not find both heavy and light chain for the antibody. Skipping %s" %i)
             continue
 
         else:
-            heavy_chain = current_clone[current_clone["Chain"] == "Heavy"]["Receptor Amino Acids"].values[0]
-            light_chain = current_clone[current_clone["Chain"].isin(["Kappa", "Lambda"])]["Receptor Amino Acids"].values[0]
+            heavy_chain = current_antibody[current_antibody["Chain"] == "Heavy"]["Receptor Amino Acids"].values[0]
+            light_chain = current_antibody[current_antibody["Chain"].isin(["Kappa", "Lambda"])]["Receptor Amino Acids"].values[0]
 
             current_antibody = [i, heavy_chain, light_chain]
             antibody_list.append(current_antibody)
@@ -610,16 +610,16 @@ def merge_sequence_information(epitope_pdb, heavy_chain_df, light_chain_df):
     return df_filtered
 
 
-def perform_random_clustering(cluster_sizes, clones):
+def perform_random_clustering(cluster_sizes, antibodies):
     
     random_clusters = []
-    remaining_clones = list(clones)
+    remaining_antibodies = list(antibodies)
 
     for size in cluster_sizes:
         
-        random_cluster = random.sample(remaining_clones, size)
+        random_cluster = random.sample(remaining_antibodies, size)
         random_clusters.append(random_cluster)
-        remaining_clones = [clone for clone in remaining_clones if clone not in random_cluster]
+        remaining_antibodies = [antibody for antibody in remaining_antibodies if antibody not in random_cluster]
         
     assert len(random_clusters) == len(cluster_sizes)
 
@@ -808,7 +808,7 @@ def separate_germline_seq(df):
     cluster = df[df["Germline Sequence"] == False]
 
     print("Germline sequences:", len(germline))
-    print("Unique clones:", len(cluster["Unique Clone Id"].unique()))
+    print("Unique antibodies:", len(cluster["Unique Clone Id"].unique()))
     
     return germline, cluster
 
