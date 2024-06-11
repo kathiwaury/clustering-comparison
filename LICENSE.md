@@ -1,3 +1,9 @@
+This work is dual-licensed under AGPL: GNU Affero General Public Licence version 3 (https://www.gnu.org/licenses/agpl-3.0.html), and a commercial licence agreement with ENPICOM B.V.
+
+You can choose between either of these licences ('choice-of-licence') if you use this work.
+
+For FOSS users, we recommend the AGPL licence. For users that cannot comply to AGPL or need a commercial licence, please contact ENPICOM B.V. for more details.
+
 # GNU AFFERO GENERAL PUBLIC LICENSE
 
 Version 3, 19 November 2007
