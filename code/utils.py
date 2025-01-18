@@ -519,6 +519,11 @@ def find_clone_ID_of_substring(main_string, df):
     
     return clone_id   
 
+
+def find_PDB(epitope_id, epitope_pdb_mapping):
+    
+    return epitope_pdb_mapping[epitope_pdb_mapping["Epitope_ID"] == epitope_id]["PDB"].values[0]
+
     
 def find_sequence_cutoff(mismatch_list):
     
