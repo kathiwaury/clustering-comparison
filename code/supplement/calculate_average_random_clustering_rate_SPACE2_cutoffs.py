@@ -23,9 +23,9 @@ if __name__ == "__main__":
     space2_dict = {}
     cutoffs = ["1", "1_5", "2", "2_5"]
     
-    # load and preprocess all SPACE2 CLuster datasets and save in dictionary
+    # load and preprocess all SPACE2 cluster datasets and save in dictionary
     for cutoff in cutoffs:
-        space2_dict[cutoff] = load_SPACE2_data("SPACE2_clustering_240425_cutoff_" + cutoff, data_path)
+        space2_dict[cutoff] = load_SPACE2_data("/clustering/SPACE2_clustering_cutoff_" + cutoff, data_path)
         space2_dict[cutoff] = preprocess_SPACE2_data(space2_dict[cutoff])
 
     # calculate random clustering rate for all cluster sizes
@@ -37,5 +37,5 @@ if __name__ == "__main__":
         
         space2_random_clustering_rates = calculate_average_random_clustering_rate(space2_cluster_sizes, space2["Clone_ID"].to_list(), 
              cluster_comparison[["Clone_ID_A", "Clone_ID_B"]])
-        space2_random_clustering_rates.to_csv(data_path + "/Random_clustering_rates/Random_clustering_rates_SPACE2_" + \
+        space2_random_clustering_rates.to_csv(data_path + "/random_clustering_rates/Random_clustering_rates_SPACE2_" + \
              str(i) + ".csv", index=False)

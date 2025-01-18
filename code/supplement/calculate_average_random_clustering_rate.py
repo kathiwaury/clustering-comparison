@@ -21,16 +21,16 @@ if __name__ == "__main__":
     cluster_comparison = pd.read_csv(data_path + "/antibody_pairs/Antibody_pairs_cluster_comparison.csv")
     
     # IGX Cluster
-    cluster_full = pd.read_csv(data_path + "/IGX/Cluster_240425.tsv", sep="\t", low_memory=False)
+    cluster_full = pd.read_csv(data_path + "/clustering/IGX_Cluster_clustering.tsv", sep="\t", low_memory=False)
     germline, cluster = separate_germline_seq(cluster_full)
     cluster_heavy = cluster[cluster["Chain"] == "Heavy"]
     
     # SAAB+
-    saabplus = pd.read_csv(data_path + "/SAABplus/SAABplus_clustering_heavy_chains.tsv", sep="\t", index_col=0)
+    saabplus = pd.read_csv(data_path + "/clustering/SAABplus_clustering_heavy_chains.tsv", sep="\t", index_col=0)
     saabplus_clustered = saabplus[~saabplus["Clusters"].isna()] # in BAZIS "None" is interpreted as None, not a string
     
     # SPACE2
-    space2 = pd.read_csv(data_path + "/SPACE2/SPACE2_clustering_240425.csv")
+    space2 = pd.read_csv(data_path + "/clustering/SPACE2_clustering.csv")
     space2.rename(columns={"ID":"Clone_ID"}, inplace=True)
 
     # preprocess data sets
@@ -51,15 +51,15 @@ if __name__ == "__main__":
     # IGX Cluster
     igx_random_clustering_rates = calculate_average_random_clustering_rate(igx_cluster_sizes, 
         cluster_heavy["Unique Clone Id"].to_list(), cluster_comparison[["Clone_ID_A", "Clone_ID_B"]])
-    igx_random_clustering_rates.to_csv(data_path + "/Random_clustering_rates/Random_clustering_rates_IGX.csv", index=False)
+    igx_random_clustering_rates.to_csv(data_path + "/random_clustering_rates/Random_clustering_rates_IGX.csv", index=False)
 
     # SAAB+
     saabplus_random_clustering_rates = calculate_average_random_clustering_rate(saabplus_cluster_sizes, 
     saabplus_clustered_clones["Clone_ID"].to_list(), cluster_comparison[["Clone_ID_A", "Clone_ID_B"]])
-    saabplus_random_clustering_rates.to_csv(data_path + "/Random_clustering_rates/Random_clustering_rates_SAABplus.csv", index=False)
+    saabplus_random_clustering_rates.to_csv(data_path + "/random_clustering_rates/Random_clustering_rates_SAABplus.csv", index=False)
 
     # SPACE2
     space2_random_clustering_rates = calculate_average_random_clustering_rate(space2_cluster_sizes, 
         space2["Clone_ID"].to_list(), cluster_comparison[["Clone_ID_A", "Clone_ID_B"]])
-    space2_random_clustering_rates.to_csv(data_path + "/Random_clustering_rates/Random_clustering_rates_SPACE2.csv", index=False)
+    space2_random_clustering_rates.to_csv(data_path + "/random_clustering_rates/Random_clustering_rates_SPACE2.csv", index=False)
 

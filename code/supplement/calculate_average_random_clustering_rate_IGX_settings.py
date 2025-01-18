@@ -20,13 +20,13 @@ if __name__ == "__main__":
     # cluster comparison
     cluster_comparison = pd.read_csv(data_path + "/antibody_pairs/Antibody_pairs_cluster_comparison.csv")
     
-    # load all IGX CLuster datasets and save in dictionary
+    # load all IGX Cluster datasets and save in dictionary
     igx_dict = {}
-    igx_dict["V_80"] = pd.read_csv(data_path + "/IGX/Cluster_240425_V_80.tsv", sep="\t",
+    igx_dict["V_80"] = pd.read_csv(data_path + "/clustering/IGX_Cluster_clustering_V_80.tsv", sep="\t",
          low_memory=False)
-    igx_dict["V_J_70"] = pd.read_csv(data_path + "/IGX/Cluster_240425_V_J_70.tsv", sep="\t",
+    igx_dict["V_J_70"] = pd.read_csv(data_path + "/clustering/IGX_Cluster_clustering_V_J_70.tsv", sep="\t",
          low_memory=False)
-    igx_dict["V_70"] = pd.read_csv(data_path + "/IGX/Cluster_240425_V_70.tsv", sep="\t",
+    igx_dict["V_70"] = pd.read_csv(data_path + "/clustering/IGX_Cluster_clustering_V_70.tsv", sep="\t",
          low_memory=False)
     
     # preprocess datasets
@@ -41,5 +41,5 @@ if __name__ == "__main__":
         
         igx_random_clustering_rates = calculate_average_random_clustering_rate(igx_cluster_sizes, igx["Unique Clone Id"].to_list(), 
             cluster_comparison[["Clone_ID_A", "Clone_ID_B"]])
-        igx_random_clustering_rates.to_csv(data_path + "/Random_clustering_rates/Random_clustering_rates_IGX_" + str(i) + ".csv", 
+        igx_random_clustering_rates.to_csv(data_path + "/random_clustering_rates/Random_clustering_rates_IGX_" + str(i) + ".csv", 
             index=False)
